@@ -1,3 +1,49 @@
+######################################################
+# JDCP-6_E.Orlov
+######################################################
+# должны игнорироваться файлы идеи (правила *.iml и .idea)
+*.iml
+.idea
+# папки для автогенерируемых результатов сборки (out, позже - target)
+out
+target
+# Архивы
+*.zip
+*.rar
+
+######################################################
+# for Maven:
+######################################################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+######################################################
+# for Gradle:
+######################################################
+.gradle
+build/
+# Ignore Gradle GUI config
+gradle-app.setting
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+# Cache of project
+.gradletasknamecache
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+######################################################
+#Author: Sergey Serdyuk <sergey.serdyuk@agoraworld.co>
+#Date:   Thu Dec 22 23:42:29 2022 +0300
+######################################################
 # Created by .ignore support plugin (hsz.mobi)
 ### Maven template
 target/
